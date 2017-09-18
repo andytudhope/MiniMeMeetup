@@ -1,0 +1,144 @@
+{
+  "contract_name": "GlobalMeetup",
+  "abi": [
+    {
+      "constant": false,
+      "inputs": [
+        {
+          "name": "_from",
+          "type": "address"
+        },
+        {
+          "name": "_to",
+          "type": "address"
+        },
+        {
+          "name": "_amount",
+          "type": "uint256"
+        }
+      ],
+      "name": "onTransfer",
+      "outputs": [
+        {
+          "name": "",
+          "type": "bool"
+        }
+      ],
+      "payable": false,
+      "type": "function"
+    },
+    {
+      "constant": true,
+      "inputs": [],
+      "name": "tokenContract",
+      "outputs": [
+        {
+          "name": "",
+          "type": "address"
+        }
+      ],
+      "payable": false,
+      "type": "function"
+    },
+    {
+      "constant": false,
+      "inputs": [
+        {
+          "name": "_owner",
+          "type": "address"
+        },
+        {
+          "name": "_amount",
+          "type": "uint256"
+        }
+      ],
+      "name": "generateTokens",
+      "outputs": [
+        {
+          "name": "",
+          "type": "bool"
+        }
+      ],
+      "payable": false,
+      "type": "function"
+    },
+    {
+      "constant": true,
+      "inputs": [],
+      "name": "owner",
+      "outputs": [
+        {
+          "name": "",
+          "type": "address"
+        }
+      ],
+      "payable": false,
+      "type": "function"
+    },
+    {
+      "constant": false,
+      "inputs": [
+        {
+          "name": "_newOwner",
+          "type": "address"
+        }
+      ],
+      "name": "changeOwner",
+      "outputs": [],
+      "payable": false,
+      "type": "function"
+    },
+    {
+      "constant": false,
+      "inputs": [
+        {
+          "name": "_owner",
+          "type": "address"
+        },
+        {
+          "name": "_spender",
+          "type": "address"
+        },
+        {
+          "name": "_amount",
+          "type": "uint256"
+        }
+      ],
+      "name": "onApprove",
+      "outputs": [
+        {
+          "name": "",
+          "type": "bool"
+        }
+      ],
+      "payable": false,
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "name": "_tokenAddress",
+          "type": "address"
+        }
+      ],
+      "payable": false,
+      "type": "constructor"
+    },
+    {
+      "anonymous": false,
+      "inputs": [
+        {
+          "indexed": false,
+          "name": "_amount",
+          "type": "uint256"
+        }
+      ],
+      "name": "tokensMinted",
+      "type": "event"
+    }
+  ],
+  "unlinked_binary": "0x6060604052341561000f57600080fd5b6040516020806103ed833981016040528080519150505b5b60008054600160a060020a03191633600160a060020a03161790555b60018054600160a060020a031916600160a060020a0383161790555b505b61037d806100706000396000f3006060604052361561005c5763ffffffff60e060020a6000350416634a393149811461006157806355a373d61461009d578063827f32c0146100cc5780638da5cb5b14610102578063a6f9dae114610131578063da682aeb14610061575b600080fd5b341561006c57600080fd5b610089600160a060020a036004358116906024351660443561018e565b604051901515815260200160405180910390f35b34156100a857600080fd5b6100b0610198565b604051600160a060020a03909116815260200160405180910390f35b34156100d757600080fd5b610089600160a060020a03600435166024356101a7565b604051901515815260200160405180910390f35b341561010d57600080fd5b6100b06102fd565b604051600160a060020a03909116815260200160405180910390f35b341561013c57600080fd5b610150600160a060020a036004351661030c565b005b341561006c57600080fd5b610089600160a060020a036004358116906024351660443561018e565b604051901515815260200160405180910390f35b60015b9392505050565b600154600160a060020a031681565b6000805433600160a060020a039081169116146101c357600080fd5b600154600160a060020a031663f77c47916000604051602001526040518163ffffffff1660e060020a028152600401602060405180830381600087803b151561020b57600080fd5b6102c65a03f1151561021c57600080fd5b5050506040518051600160a060020a03161515905061023a57600080fd5b600154600160a060020a031663827f32c0848460006040516020015260405160e060020a63ffffffff8516028152600160a060020a0390921660048301526024820152604401602060405180830381600087803b151561029957600080fd5b6102c65a03f115156102aa57600080fd5b5050506040518051905015156102bf57600080fd5b7f7f74cde244ae616bc27ef69534b79a82a4e6125282f3b1528869b1e25ef7993f8260405190815260200160405180910390a15060015b5b92915050565b600054600160a060020a031681565b60005433600160a060020a0390811691161461032757600080fd5b60008054600160a060020a031916600160a060020a0383161790555b5b50565b60015b93925050505600a165627a7a72305820ecc2ca5e0b2b76570e99b13ae98b38a378ecebefa293972d36aa47879cbd0c9b0029",
+  "networks": {},
+  "schema_version": "0.0.5",
+  "updated_at": 1505753076478
+}
